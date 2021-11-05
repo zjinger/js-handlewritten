@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="students">
+
+    </div>
+    <script type="text/javascript">
+        function get() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open('get', 'data.json', true);
+            console.log(xmlhttp);
+            xmlhttp.onload = function (e) {
+                console.log(this.responseText);
+                document.getElementById('students').innerHTML=this.responseText;
+            }
+            xmlhttp.send();
+        }
+        get();
+    </script>
+</body>
+
+</html>
