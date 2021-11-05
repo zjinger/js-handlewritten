@@ -1,0 +1,12 @@
+{
+  "name": "js-handlewritten",
+  "version": "1.0.0",
+  "description": "手写js 中常见的实现题",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": "JavaScript",
+  "author": "zhangjing",
+  "license": "ISC"
+}
