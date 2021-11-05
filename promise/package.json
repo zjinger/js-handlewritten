@@ -1,0 +1,14 @@
+{
+  "name": "promise",
+  "version": "1.0.0",
+  "description": "https://promisesaplus.com/\r ## 100 行代码实现 Promise A+ 规范\r https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g\r ## 深入理解Promise",
+  "main": "promise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  }
+}
